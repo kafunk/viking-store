@@ -1,0 +1,173 @@
+body{
+  font-family: Helvetica, sans-serif;
+}
+
+.navbar{
+  position: absolute;
+  top: 0;
+  height: 34px;
+  width: 100%;
+  border-bottom: 1px solid #333;
+}
+
+.navbar-content{
+  margin:auto;
+  line-height: 34px;
+  padding: 0 65px;
+}
+
+.pull-left{
+  float: left;
+  vertical-align: middle;
+  font-size: 18px;
+}
+
+.pull-right{
+  float: right;
+  vertical-align: middle;
+}
+
+.pull-right img{
+  vertical-align: middle;
+}
+
+.clearfix:after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+header{
+  height: 400px;
+  width: 100%;
+  margin-top: 35px;
+  border-bottom: 1px solid #333;
+}
+
+.logo-container{
+  margin: auto;
+  line-height: 300px;
+}
+
+img.logo{
+  position: absolute;
+  z-index: 1;
+  left: 0;
+  height: 300px;
+  width: 100%;
+  margin: auto;
+  opacity: 0.4;
+  filter: alpha(opacity=40)
+}
+
+h1{
+  position: relative;
+  z-index: 2;
+  color: #000000
+  line-height: 56px;
+  font-size: 56px;
+  font-weight: bold;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.subheader{
+  height: 70px;
+  line-height: 70px;
+}
+
+h2{
+  margin: auto;
+  font-size: 24px;
+  color: #ffffff;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.orient{
+  height: 30px;
+  line-height: 30px;
+}
+
+h3{
+  margin: auto;
+  font-size: 16px;
+  font-style: italic;
+  text-align: center;
+  vertical-align: middle;
+}
+
+img.left-align{
+  padding-right: 10px;
+  vertical-align: middle;
+}
+
+.dark-bg{
+  background-color: #333;
+}
+
+section{
+  width: 100%;
+}
+
+.row{
+  margin: auto;
+}
+
+.pagination-container{
+  text-align: center;
+}
+
+.pagination{
+  display: inline-block;
+  padding: 16px 32px;
+  margin: 0;
+}
+
+.pagination li{
+  display: inline;
+}
+
+.pagination li a{
+  padding: 6px 12px;
+}
+
+.current{
+  color: #222;
+  text-decoration: none;
+  pointer-events: none;
+  cursor: default;
+}
+
+.footer{
+  position: absolute;
+  bottom: 0;
+  height: 96px;
+  line-height: 96px;
+  border-top: 1px solid #333;
+  width: 100%;
+}
+
+.contact-container{
+  margin: auto;
+  width: 224px;
+  height: 96px;
+  line-height: 32px;
+  padding: 10px 0;
+  vertical-align: middle;
+}
+
+.contact-container p{
+  text-align: center;
+  color: #F6B26B
+}
+
+.contact-container section{
+  color: #ffffff
+}
+
+.email-container a{
+  text-decoration: none;
+  color: #ffffff;
+}
+
