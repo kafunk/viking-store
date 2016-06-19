@@ -58,7 +58,7 @@ img.logo{
   width: 100%;
   margin: auto;
   opacity: 0.4;
-  filter: alpha(opacity=40)
+  filter: alpha(opacity=40);
 }
 
 h1{
@@ -103,26 +103,102 @@ h3{
 }
 
 .item-grid{
-  margin: auto;
-  width: 100%;
+  margin: 15px auto;
+  width: 960px;
 }
 
 .row-1,
 .row-2{
   margin: auto;
-  padding: 30px;
+  padding: 15px;
+  max-width: 980px;
 }
 
 .col-1-3{
   display: inline-block;
-  width: 33.33%;
+  width: 30.1%;
   vertical-align: top;
+  padding-left: 7.5px;
+  padding-right: 7.5px;
+}
+
+.item-container{
   padding-left: 15px;
   padding-right: 15px;
 }
 
-.item-container{
-  border: 1px solid #333;
+.item-name-container{
+  line-height: 30px;
+  text-align: center;
+  border-left: 1px solid #333;
+  border-right: 1px solid #333;
+}
+
+.item-name{
+  vertical-align: middle;
+  color: #ffffff;
+}
+
+.item-img-container{
+  margin: auto;
+  vertical-align: middle;
+  position: relative;
+  border-left: 1px solid #333;
+  border-right: 1px solid #333;
+}
+
+img.item-img{
+  margin: auto;
+  position: relative;
+  left: 0;
+  z-index: 1;
+  width: 100%;
+  padding: 10px 0;
+  vertical-align: middle;
+}
+
+.price-inset-container{
+  position: absolute;
+  z-index: 2;
+  top: 0;
+  right: 0;
+  width: 40px;
+  border-left: 1px solid #888;
+  border-bottom: 1px solid #888;
+  text-align: center;
+}
+
+.price-inset{
+  vertical-align: middle;
+  font-size: small;
+}
+
+.button-container input{
+  -webkit-appearance: none;
+}
+
+.button-container{
+  margin: auto;
+  width: 100%;
+  line-height: 36px;
+  vertical-align: middle;
+  border-left: 1px solid #333;
+  border-right: 1px solid #333;
+}
+
+form{
+  margin: auto;
+  width: 88px;
+}
+
+.cta-button{
+  margin: auto;
+  width: 88px;
+  border: none;
+  text-align: center;
+  background-color: #F6B26B;
+  font-weight: bold;
+  vertical-align: middle;
 }
 
 .pagination-container{
@@ -164,7 +240,7 @@ h3{
   width: 224px;
   height: 96px;
   line-height: 32px;
-  padding: 10px 0;
+  padding: 24px 0;
   vertical-align: middle;
 }
 
